@@ -131,7 +131,7 @@ li {
   }
 
   li {
-    height: 100%;
+    height: auto;
     min-width: 100%;
   }
 
@@ -426,14 +426,14 @@ SP
   /*-------------------------------------------
   Mainvisual
   -------------------------------------------*/
-  .mainvisual {
+  #container {
     margin-bottom: 80px;
   }
 
   /*-------------------------------------------
   News
   -------------------------------------------*/
-  .news {
+  #news {
     margin-bottom: 80px;
 
     .list {
@@ -455,7 +455,7 @@ SP
   /*-------------------------------------------
   About
   -------------------------------------------*/
-  .about {
+  #about {
     flex-direction: column;
     margin-bottom: 80px;
 
@@ -476,7 +476,7 @@ SP
   /*-------------------------------------------
   Business
   -------------------------------------------*/
-  .business {
+  #business {
     margin-bottom: 80px;
 
     .flex {
@@ -509,7 +509,7 @@ SP
   /*
   「position: static;」でrelativeを解除
   */
-  .company {
+  #company {
     height: auto;
     flex-direction: column;
     position: static;
